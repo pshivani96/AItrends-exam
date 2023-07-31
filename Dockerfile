@@ -1,4 +1,4 @@
 FROM python 
 COPY mkdir /python
-RUN /python hello.py
-CMD [ "python3", "hello.py/python"]
+RUN hello.py /python
+CMD [ "python3", "hello.py /python"]
